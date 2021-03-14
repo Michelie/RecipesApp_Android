@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="back"
+        android:icon="@drawable/ic_arrow_back"
+        android:id="@+id/backBarBtn"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="search"
+        android:icon="@drawable/ic_search"
+        android:id="@+id/serachBarBtn"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="favourites"
+        android:icon="@drawable/ic_favorites"
+        android:id="@+id/favouriteshBarBtn"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="delete"
+        android:icon="@drawable/ic_delete"
+        android:id="@+id/deleteBarBtn"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="update"
+        android:icon="@drawable/ic_update_circle"
+        android:id="@+id/updateBarBtn"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/signOutBarBtn"
+        android:title="Sign Out"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText" />
+
+</menu>
